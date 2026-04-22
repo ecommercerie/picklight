@@ -1,0 +1,11 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "picklight",
+  "outputfilename": "picklight",
+  "frontend:install": "",
+  "frontend:build": "",
+  "author": {
+    "name": "Emmanuel Cohen",
+    "email": "emmanuel.cohen@bso.co"
+  }
+}

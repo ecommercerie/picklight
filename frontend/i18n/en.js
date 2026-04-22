@@ -1,0 +1,91 @@
+window.I18N_EN = {
+    // Navigation
+    "nav.status": "Status",
+    "nav.settings": "Settings",
+    "nav.about": "About",
+    "nav.quit": "Quit",
+
+    // Status page
+    "status.waiting": "Waiting...",
+    "status.noThreshold": "No active threshold",
+    "status.lastPoll": "Last poll",
+    "status.lastPollError": "(error)",
+    "status.nextPollMinSec": "Next poll in {m}m{s}s",
+    "status.nextPollSec": "Next poll in {s}s",
+    "status.connected": "Connected",
+    "status.disconnected": "Disconnected",
+    "status.pollBtn": "Poll now",
+    "status.detectBtn": "Detect Status Light",
+    "status.pollStarted": "Poll started",
+    "status.deviceDetected": "Status light detected: {name}",
+    "status.noDeviceFound": "No status light found",
+    "status.logs": "Logs",
+
+    // Update banner
+    "update.available": "PickLight v{current} \u2014 new version available (v{latest})",
+    "update.btn": "Update",
+    "update.inProgress": "Updating...",
+    "update.success": "Update downloaded, restarting...",
+    "update.retry": "Retry",
+
+    // Settings page
+    "settings.title": "Settings",
+    "settings.endpointUrl": "Endpoint URL",
+    "settings.pollInterval": "Poll interval (seconds)",
+    "settings.jsonPath": "JSON path",
+    "settings.tlsSkip": "Skip TLS verification",
+    "settings.soundEnabled": "Sound enabled",
+    "settings.soundOnChange": "Sound only on threshold change",
+    "settings.startup": "Start with Windows",
+    "settings.language": "Language",
+    "settings.langAuto": "Automatic (system)",
+    "settings.save": "Save",
+    "settings.saved": "Configuration saved",
+
+    // Thresholds
+    "thresholds.title": "Thresholds",
+    "thresholds.add": "+ Add threshold",
+    "thresholds.sound": "Sound",
+    "thresholds.blink": "Blink",
+    "thresholds.label": "Label",
+    "thresholds.test": "Test",
+    "thresholds.testSent": "Test sent",
+
+    // Debug
+    "debug.title": "Debug Status Light",
+    "debug.testColor": "Test color",
+    "debug.colorSent": "Color sent",
+    "debug.testSound": "Test sound",
+    "debug.soundSent": "Sound sent",
+    "debug.turnOff": "Turn off",
+    "debug.turnedOff": "Turned off",
+    "debug.diagnoseTitle": "Status Light Diagnostics",
+    "debug.diagnoseBtn": "Run diagnostics",
+    "debug.diagnosing": "Diagnosing...",
+    "debug.noInterface": "No status light interface found",
+    "debug.unknown": "Unknown",
+    "debug.diagnoseDone": "Diagnostics complete \u2014 check if the LED changed color",
+    "debug.usbTitle": "Detected USB HID devices",
+    "debug.scanBtn": "Scan USB devices",
+    "debug.noHid": "No HID device detected",
+    "debug.devicesFound": "{n} device(s) found",
+    "debug.thVendor": "Vendor ID",
+    "debug.thProduct": "Product ID",
+    "debug.thManufacturer": "Manufacturer",
+    "debug.thProductName": "Product",
+
+    // About page
+    "about.title": "About PickLight",
+    "about.description": "PickLight periodically polls a JSON endpoint (e.g. PrestaShop) to check the number of pending orders, and drives a USB status light (Kuando Busylight, Luxafor Flag, ThingM Blink(1), Embrava Blynclight) to visually indicate the status. The logistics team can see at a glance if there are orders to prepare, without opening the back-office.",
+    "about.editor": "Publisher",
+    "about.website": "Website",
+    "about.source": "Source code",
+    "about.credits": "Acknowledgements",
+    "about.creditsText": "Multi-device support (HID protocols for Kuando, Luxafor, ThingM, Embrava) was implemented using the busylight project as a reference:",
+    "about.reference": "Reference repo",
+    "about.coauthored": "Co-authored with",
+    "about.license": "PickLight is open source software under the MIT license, published by eCommercerie. The busylight project by JnyJny (Apache 2.0 license) was used as a documentation reference for the USB HID protocols of the supported devices.",
+
+    // Common
+    "common.error": "Error: {msg}",
+};

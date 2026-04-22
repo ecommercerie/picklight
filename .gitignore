@@ -1,0 +1,23 @@
+# Binaries
+build/bin/
+*.exe
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+vendor/
+
+# Wails dev
+frontend/node_modules/
+frontend/dist/
+
+# Config (user-specific)
+config.yaml

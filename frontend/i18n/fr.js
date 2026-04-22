@@ -1,0 +1,91 @@
+window.I18N_FR = {
+    // Navigation
+    "nav.status": "Status",
+    "nav.settings": "Configuration",
+    "nav.about": "A propos",
+    "nav.quit": "Quitter",
+
+    // Status page
+    "status.waiting": "En attente...",
+    "status.noThreshold": "Aucun seuil actif",
+    "status.lastPoll": "Dernier poll",
+    "status.lastPollError": "(erreur)",
+    "status.nextPollMinSec": "Prochain poll dans {m}m{s}s",
+    "status.nextPollSec": "Prochain poll dans {s}s",
+    "status.connected": "Connect\u00e9",
+    "status.disconnected": "D\u00e9connect\u00e9",
+    "status.pollBtn": "Interroger maintenant",
+    "status.detectBtn": "D\u00e9tecter Status Light",
+    "status.pollStarted": "Poll lanc\u00e9",
+    "status.deviceDetected": "Status light d\u00e9tect\u00e9: {name}",
+    "status.noDeviceFound": "Aucun status light trouv\u00e9",
+    "status.logs": "Logs",
+
+    // Update banner
+    "update.available": "PickLight v{current} \u2014 nouvelle version disponible (v{latest})",
+    "update.btn": "Mettre \u00e0 jour",
+    "update.inProgress": "Mise \u00e0 jour...",
+    "update.success": "Mise \u00e0 jour t\u00e9l\u00e9charg\u00e9e, red\u00e9marrage...",
+    "update.retry": "R\u00e9essayer",
+
+    // Settings page
+    "settings.title": "Configuration",
+    "settings.endpointUrl": "URL de l'endpoint",
+    "settings.pollInterval": "Intervalle de polling (secondes)",
+    "settings.jsonPath": "Chemin JSON",
+    "settings.tlsSkip": "Ignorer la v\u00e9rification TLS",
+    "settings.soundEnabled": "Son activ\u00e9",
+    "settings.soundOnChange": "Son uniquement au changement de seuil",
+    "settings.startup": "D\u00e9marrage automatique Windows",
+    "settings.language": "Langue",
+    "settings.langAuto": "Automatique (syst\u00e8me)",
+    "settings.save": "Sauvegarder",
+    "settings.saved": "Configuration sauvegard\u00e9e",
+
+    // Thresholds
+    "thresholds.title": "Seuils",
+    "thresholds.add": "+ Ajouter un seuil",
+    "thresholds.sound": "Son",
+    "thresholds.blink": "Blink",
+    "thresholds.label": "Label",
+    "thresholds.test": "Test",
+    "thresholds.testSent": "Test envoy\u00e9",
+
+    // Debug
+    "debug.title": "Debug Status Light",
+    "debug.testColor": "Tester couleur",
+    "debug.colorSent": "Couleur envoy\u00e9e",
+    "debug.testSound": "Tester son",
+    "debug.soundSent": "Son envoy\u00e9",
+    "debug.turnOff": "\u00c9teindre",
+    "debug.turnedOff": "\u00c9teint",
+    "debug.diagnoseTitle": "Diagnostic Status Light",
+    "debug.diagnoseBtn": "Lancer le diagnostic",
+    "debug.diagnosing": "Diagnostic en cours...",
+    "debug.noInterface": "Aucune interface status light trouv\u00e9e",
+    "debug.unknown": "Inconnu",
+    "debug.diagnoseDone": "Diagnostic termin\u00e9 \u2014 v\u00e9rifiez si la LED a chang\u00e9 de couleur",
+    "debug.usbTitle": "P\u00e9riph\u00e9riques USB HID d\u00e9tect\u00e9s",
+    "debug.scanBtn": "Scanner les p\u00e9riph\u00e9riques USB",
+    "debug.noHid": "Aucun p\u00e9riph\u00e9rique HID d\u00e9tect\u00e9",
+    "debug.devicesFound": "{n} p\u00e9riph\u00e9rique(s) trouv\u00e9(s)",
+    "debug.thVendor": "Vendor ID",
+    "debug.thProduct": "Product ID",
+    "debug.thManufacturer": "Fabricant",
+    "debug.thProductName": "Produit",
+
+    // About page
+    "about.title": "A propos de PickLight",
+    "about.description": "PickLight interroge p\u00e9riodiquement un endpoint JSON (ex: PrestaShop) pour conna\u00eetre le nombre de commandes en attente de pr\u00e9paration, et pilote un voyant USB (Kuando Busylight, Luxafor Flag, ThingM Blink(1), Embrava Blynclight) pour signaler visuellement l'\u00e9tat. L'\u00e9quipe logistique sait en un coup d'\u0153il s'il y a du travail \u00e0 lancer, sans ouvrir le back-office.",
+    "about.editor": "Editeur",
+    "about.website": "Site web",
+    "about.source": "Code source",
+    "about.credits": "Remerciements",
+    "about.creditsText": "Le support multi-devices (protocoles HID pour Kuando, Luxafor, ThingM, Embrava) a \u00e9t\u00e9 impl\u00e9ment\u00e9 en s'appuyant sur le travail de r\u00e9f\u00e9rence du projet busylight :",
+    "about.reference": "Repo de r\u00e9f\u00e9rence",
+    "about.coauthored": "Co-authored with",
+    "about.license": "PickLight est un logiciel open source sous licence MIT, \u00e9dit\u00e9 par eCommercerie. Le projet busylight de JnyJny (licence Apache 2.0) a servi de r\u00e9f\u00e9rence documentaire pour les protocoles USB HID des diff\u00e9rents p\u00e9riph\u00e9riques support\u00e9s.",
+
+    // Common
+    "common.error": "Erreur: {msg}",
+};
